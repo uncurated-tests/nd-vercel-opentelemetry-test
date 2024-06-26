@@ -37,7 +37,6 @@ export default async function Stars({
     .getTracer("nextjs-example")
     .startActiveSpan(`RSC.StarsComponent:${repo}`, async (span) => {
       const stars = await fetchGithubStars(repo, delay);
-      await fetchGithubStars(repo, delay);
 
       const element = (
         <div style={{ border: "1px solid #eee", margin: 5, padding: 5 }}>
