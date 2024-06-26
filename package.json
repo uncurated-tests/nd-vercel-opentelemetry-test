@@ -9,6 +9,8 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@vercel/otel": "1.9.1",
+    "@opentelemetry/api-logs": "0.52.1",
     "react": "^18",
     "react-dom": "^18",
     "next": "14.2.4"
